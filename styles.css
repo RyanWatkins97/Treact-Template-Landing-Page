@@ -1639,7 +1639,8 @@ MOBILE RESPONSIVENESS ↓
     /* PRICING */
 
     .pricing__header--large {
-        font-size: 45px;
+        display: block;
+        font-size: 60px;
     }
 
     #pricing span.purple {
@@ -1775,4 +1776,241 @@ MOBILE RESPONSIVENESS ↓
     main {
         margin-bottom: 80px;
     }
+
+    /* LANDING */
+
+    .logo__text {
+        font-size: 30px;
+        margin-left: -10px;
+        margin-bottom: 10px;
+    }
+
+    h1.header__title {
+        text-align: center;
+        width: 105%;
+        margin-top: 15px;
+        margin-left: -15px;
+    }
+
+    .header__para {
+        text-align: center;
+        line-height: 1.625;
+        font-weight: 400;
+    }
+
+    .trusted__customers {
+        margin-top: 15px;
+        transform: translateY(-25px);
+    }
+
+    .header__img {
+        transform: scale(1.075);
+        margin-top: 0;
+        margin-left: 0;
+    }
+
+    .header__design {
+        transform: scale(1.625);
+    }
+
+    /* FEATURES */
+
+    .features__header--large {
+        line-height: 1.5;
+    }
+
+    .features__para {
+        font-size: 17.5px;
+        width: 100%;
+    }
+
+    .features__columns {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .features__column {
+        width: 100%;
+    }
+
+    .icon__para {
+        width: 60%;
+        max-width: none;
+    }
+
+    /* QUALITY */
+
+    .quality__container {
+        width: 100%;
+        flex-direction: column-reverse;
+    }
+
+    .quality__left {
+        width: 100%;
+    }
+
+    #quality span.title--small {
+        margin-left: 165px;
+    }
+
+    .quality__header--large {
+        text-align: center;
+        transform: scale(1.045);
+    }
+
+    .quality__para {
+        text-align: center;
+        width: 100%;
+        max-width: none;
+    }
+
+    .btn__quality {
+        margin-left: 175px;
+        transform: scale(1.15);
+    }
+
+    .quality__right {
+        width: 100%;
+    }
+
+    .quality__img {
+        margin-top: 0;
+        margin-left: 30px;
+        margin-bottom: 80px;
+        transform: scale(1.025);
+    }
+
+    .dot-container {
+        margin-bottom: 30px;
+        transform: translateX(65px);
+    }
+
+    /* STEPS */
+
+    .steps__container {
+        flex-direction: column;
+        width: 100%;
+        gap: 140px;
+    }
+
+    .steps__left {
+        width: 100%;
+    }
+
+    #steps span.title--small {
+        margin-left: 252px;
+    }
+
+    .steps__right {
+        width: 100%;
+    }
+
+    .steps__img {
+        margin-top: -100px;
+        margin-bottom: 40px;
+    }
+
+    div.polka-dots {
+        margin-left: 112px;
+        top: 168px;
+        
+    }
+
+    .steps__header--large {
+        text-align: center;
+        width: 100%;
+        max-width: none;
+    }
+
+    .steps {
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+        margin-left: 128px;
+    }
+
+    .steps__numbers {
+        margin-left: 30px;
+        margin-bottom: 25px;
+    }
+
+    /* VALUES */
+
+    .values__container {
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+
+    .values__left {
+        width: 100%;
+        margin: 0;
+    }
+
+    .values__right {
+        width: 100%;
+        margin-top: -100px;;
+        
+    }
+    .values__img {
+        margin-top: 15px;
+        margin-left: 5px;
+        margin-bottom: 80px;;
+        transform: scale(0.98);
+    }
+
+    #values span.title--small {
+        margin-left: 240px;
+    }
+
+    .values__header--large {
+        text-align: center;
+    }
+
+    .values__para {
+        text-align: center;
+        width: 100%;
+        margin-left: 50px;
+    }
+
+    .containers--wrapper {
+        width: 100%;
+    }
+
+    div.values__icon--para {
+        margin-left: 130px;
+    }
+
+    div.coin {
+        margin-left: 150px;
+    }
+
+    .container__one--para {
+        width: 70%;
+        text-align: center;
+        margin-left: 85px;
+        margin-bottom: 40px;
+    }
+
+    .container__two--para {
+        width: 70%;
+        text-align: center;
+        margin-left: 65px;
+        margin-bottom: 30px;
+    }
+
+    .btn__values {
+        margin-left: 198px;
+    }
+
+    /* PRICING */
+
+    .pricing__header--large{
+        display: block;
+        text-align: center;
+    }
+
+    .plan {
+        width: 40%;
+    }
+    
 }
