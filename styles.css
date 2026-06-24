@@ -2012,5 +2012,111 @@ MOBILE RESPONSIVENESS ↓
     .plan {
         width: 40%;
     }
-    
+
+    /* TESTIMONIALS */
+
+    .testimonials__container {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .test__left {
+        width: 100%;
+    }
+
+    .test__img {
+        margin-top: 80px;
+        margin-left: 55px;
+        margin-bottom: 50px;
+        transform: scale(1.2);
+    }
+
+    .test__right {
+        width: 100%;
+    }
+
+    #testimonials span.title--small {
+        text-align: center;
+        margin-left: 198px;
+    }
+
+    .test__header--large {
+        text-align: center;
+        margin: 40px 0;
+    }
+
+    .test__para,
+    .review__para,
+    .review__header,
+    .stars {
+        text-align: center;
+    }
+
+    .stars {
+        transform: scale(1.025);
+        margin-top: 40px;
+        margin-bottom: 25px;;
+    }
+
+    .profile {
+        margin-top: 20px;
+    }
+
+    .profile__right {
+        margin-left: 60px;
+        margin-top: 40px;
+    }
+
+    .profile__name,
+    .profile__para {
+        margin-left: 10px;
+        width: 120%;
+    }
+
+    .profile__name {
+        margin-top: 50px;
+    }
+
+    .profile__left {
+        margin-left: 50px;
+    }
+
+    .test__photo {
+        transform: scale(1.4);
+        margin-top: 50px;
+    }
+
+    /* FAQS */
+
+    .btn__box--left,
+    .btn__box--right {
+        padding: 25px;
+    }
+
+    /* FOOTER */
+
+    .footer__box {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logo,
+    .copyright__box,
+    .social__icons {
+        justify-content: center;
+    }
+
+    .logo__light {
+        margin-bottom: 30px;
+    }
+
+    .logo__text {
+        margin-top: 5px;
+        margin-left: 10px;
+        font-size: 25px;
+    }
+
+    .copyright__box {
+        margin-bottom: 30px;
+    }
 }
